@@ -1,0 +1,51 @@
+.widgetssm {
+  width: 100vh;
+  flex: 1;
+  padding: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 15px -10px rgb(0, 0, 0, 0.75);
+}
+.widgetssmTitl {
+  font-size: 22px;
+  font-weight: 600;
+}
+.widgetssmList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.widgetsimg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.widgetssmitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+.widgetssmUser{
+  display: flex;  
+  flex-direction: column;
+}
+.widgetsSmUsername{
+    font-weight: 600;
+}
+.widgetssmTitek
+{
+    font-weight: 300;
+}
+.widgetssmButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 2px 5px;
+    color: #555;
+    cursor: pointer;
+}
+.VisibilityIconsmIcon{
+    font-size: 16px !important;
+}
