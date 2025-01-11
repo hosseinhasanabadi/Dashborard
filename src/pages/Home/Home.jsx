@@ -4,7 +4,8 @@ import Widgetssm from '../../components/widgets/widgetssm'
 import Chart from '../../components/Chart/Chart'
 import Feature from '../../components/Feature/Feature'
 
-import xAxisData from '../../data'
+
+import { xAxisData } from '../../data'
 export default function Home() {
   return (
     <div className='home'>

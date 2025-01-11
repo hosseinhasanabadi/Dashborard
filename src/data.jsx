@@ -79,4 +79,42 @@ const newMembers=[
     img:"img/pro.jpg"
   },
 ]
-export { xAxisData ,newMembers}
+let userRow=[
+  {
+    id:2,
+    username:'hassan',
+    title: 'Web Developer',
+    anatar:"img/pro.jpg",
+    status:'active',
+    teansaction:'$1850.2',
+    email:'hhhhh@gmail.com',
+  },
+  {
+    id:3,
+    username:'nima',
+    title: 'android',
+    anatar:"img/pro.jpg",
+    status:'active',
+    teansaction:'$1850.2',
+    email:'hhhhh@gmail.com',
+  },
+  {
+    id:4,
+    username:'raha',
+    title: 'haker',
+    anatar:"img/pro.jpg",
+    status:'non-active',
+    teansaction:'$1850.2',
+    email:'hhhhh@gmail.com',
+  },
+  {
+    id:5,
+    username:'mohamad',
+    title: 'Web Developer',
+    anatar:"img/pro.jpg",
+    status:'active',
+    teansaction:'$1850.2',
+    email:'hhhhh@gmail.com',
+  },
+]
+export { xAxisData ,newMembers,userRow}
